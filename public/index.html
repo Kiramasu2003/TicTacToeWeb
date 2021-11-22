@@ -1,25 +1,38 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Socket.IO gatito UwU</title>
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    <div class="board">
-      <button id="a0"></button>
-      <button id="a1"></button>
-      <button id="a2"></button>
-      <button id="b0"></button>
-      <button id="b1"></button>
-      <button id="b2"></button>
-      <button id="c0"></button>
-      <button id="c1"></button>
-      <button id="c2"></button>
-      <div id="messages">Esperando a que alguien quiera jugar contigo jajajaj</div>
-      </div>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.1/socket.io.js"></script>
-    <script  src="https://code.jquery.com/jquery-1.11.1.js"></script>
-    <script src="./js/script.js" defer>
-    </script>
-  </body>
-</html>
+<head>
+  <title>Socket.IO chat</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet"></link>
+</head>
+<body>
+<div class="container">
+
+  <font face="Work Sans" color="black">
+    <h1>Tic Tac Toe Web</h1>
+  </font>
+
+
+  <div class="board">
+    <button class="btn" id="btn1"></button>
+    <button class="btn" id="btn2"></button>
+    <button class="btn" id="btn3"></button>
+    <button class="btn" id="btn4"></button>
+    <button class="btn" id="btn5"></button>
+    <button class="btn" id="btn6"></button>
+    <button class="btn" id="btn7"></button>
+    <button class="btn" id="btn8"></button>
+    <button class="btn" id="btn9"></button>
+
+    <font face="Work Sans" color="black">
+      <div id="messages" class="txtt">Waiting for opponent to join...</div>
+    </font>
+  </div>
+  <font face="Work Sans" color="black">
+    <div class="txtt">Waiting for opponent to join...</div>
+  </font>
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.1/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script src="./js/script.js" defer>
+</script>
+</body>
