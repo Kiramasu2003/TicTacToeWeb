@@ -1,17 +1,68 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.materialIcons{
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+
+
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    -webkit-font-smoothing: antialiased;
+
+    text-rendering: optimizeLegibility;
+
+    -moz-osx-font-smoothing: grayscale;
+
+    font-feature-settings: 'liga';
+
+}
+
 body {
     text-align: center;
-   }
-   .board {
+    background: linear-gradient(135deg, rgba(182, 224, 84, 0.4), rgba(255, 229, 146, 0.4)) fixed;
+
+}
+.board {
     margin: auto;
     width: 350px;
-   }
-   .board button {
+}
+.board button {
     height: 100px;
     width: 100px;
-    margin: 0px;
+    margin: 0;
     padding: 0px;
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
     font-size: 3em
-   }
+}
+
+.container{
+    text-align: center;
+}
+
+.board{
+
+    padding-bottom: 20px;
+}
+
+.txtt{
+    margin-top: 17vh;
+
+}
