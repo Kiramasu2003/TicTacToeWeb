@@ -62,18 +62,17 @@ function getBoardState() {
 
 function gameTied() {
   let state = getBoardState();
-
+  
   if (
-    state.a0 !== "" &&
-    state.a1 !== "" &&
-    state.a2 !== "" &&
-    state.b0 !== "" &&
-    state.b1 !== "" &&
-    state.b2 !== "" &&
-    state.b3 !== "" &&
-    state.c0 !== "" &&
-    state.c1 !== "" &&
-    state.c2 !== ""
+      state.btn1 !== "" &&
+      state.btn2 !== "" &&
+      state.btn3 !== "" &&
+      state.btn4 !== "" &&
+      state.btn5 !== "" &&
+      state.btn6 !== "" &&
+      state.btn7 !== "" &&
+      state.btn8 !== "" &&
+      state.btn9 !== ""
   ) {
     return true;
   }
