@@ -35,7 +35,7 @@
 
 body {
     text-align: center;
-    background: linear-gradient(135deg, rgba(182, 224, 84, 0.4), rgba(255, 229, 146, 0.4)) fixed;
+    background: linear-gradient(135deg, rgba(170, 215, 77, 0.5), rgba(255, 229, 146, 0.5)) fixed;
 
 }
 .board {
@@ -63,6 +63,10 @@ body {
 }
 
 .txtt{
-    margin-top: 17vh;
+    margin-top: 15vh;
+
+}
+
+.btn{
 
 }

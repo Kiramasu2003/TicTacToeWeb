@@ -62,7 +62,7 @@ function getBoardState() {
 
 function gameTied() {
   let state = getBoardState();
-  
+
   if (
       state.btn1 !== "" &&
       state.btn2 !== "" &&
