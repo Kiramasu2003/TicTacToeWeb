@@ -26,7 +26,7 @@ $(function () {
     } else {
       // Mostramos el mensaje de que ella jugo contigo OwO
       if (myTurn) {
-        $("#messages").text("Perdiste el de ella, y también el juego UnU.");
+        $("#messages").text("L@ perdiste, y también el juego UnU.");
         // Mostramos el mensaje de quien te la bajo
       } else {
         $("#messages").text("Ganaste, pero a que costo? U.U");
@@ -108,7 +108,7 @@ function renderTurnMessage() {
     $(".board button").attr("disabled", true);
     // Activaremos cuando sea su turno de jugar con el corazón del jugo 2
   } else {
-    $("#messages").text("Ya es tu turno de destuir a tu oponente.");
+    $("#messages").text("Destruye a tu oponente.");
     $(".board button").removeAttr("disabled");
   }
 }
